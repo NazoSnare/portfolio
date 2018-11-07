@@ -52,7 +52,9 @@ html {
 .welcome-text{
     text-align: center;
     color: aqua;
-    margin: 9% 0;
+    background: #ffff;
+    opacity: 0.8;
+    margin: 27% 0 0 0;
     font-weight: bold;
     text-transform: capitalize;
 }
