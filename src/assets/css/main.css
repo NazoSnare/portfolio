@@ -1,0 +1,59 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#background {
+   
+   background: url("https://images.pexels.com/photos/408951/pexels-photo-408951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top left;
+}
+
+#navbar{
+    text-align: end;
+    /* margin: 0 9%; */
+    padding: 16px;
+    width: 100%;
+    
+}
+
+.navbar-list{
+    color: aliceblue;
+    font-weight: bold;
+    
+    
+}
+
+.navbar-list__item{
+    display: inline;
+    margin: 0 15px;
+    border: 3px solid #ffff;
+    padding: 16px;
+    border-radius: 9px;  
+    box-shadow: 2px 2px;
+}
+
+.navbar-list__item:hover,
+.navbar-list__item:active
+{
+  color: aqua;
+  background: #ffff;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+.welcome-text{
+    text-align: center;
+    color: aqua;
+    margin: 9% 0;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
