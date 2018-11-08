@@ -16,10 +16,10 @@ html {
    background-position: top left;
 }
 
-#navbar{
-    text-align: end;
+#nav{
+    
     /* margin: 0 9%; */
-    padding: 16px;
+    
     width: 100%;
     
 }
@@ -27,9 +27,12 @@ html {
 .navbar-list{
     color: aliceblue;
     font-weight: bold;
-    
+    text-align: end;
+    vertical-align: middle;
+    padding: 27px 0px;
     
 }
+
 
 .navbar-list__item{
     display: inline;
@@ -45,7 +48,7 @@ html {
 {
   color: aqua;
   background: #ffff;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   cursor: pointer;
 }
 
@@ -53,9 +56,10 @@ html {
     text-align: center;
     color: aqua;
     background: #ffff;
-    opacity: 0.8;
+    opacity: 0.9;
     margin: 27% 0 0 0;
     font-weight: bold;
     text-transform: capitalize;
+    padding: 32px;
 }
 
